@@ -1,0 +1,12 @@
+drd2:
+    train_sf_path: 'data/DLGN/DRD2_train_sf.txt'
+    train_path: 'data/DLGN/DRD2_train.txt'
+    valid_path: 'data/DLGN/DRD2_valid.txt'
+    test_path: 'data/DLGN/DRD2_test.txt'
+htr1a:
+    train_sf_path: 'data/DLGN/HTR1A_train_sf.txt'
+    train_path: 'data/DLGN/HTR1A_train.txt'
+    valid_path: 'data/DLGN/HTR1A_valid.txt'
+    test_path: 'data/DLGN/HTR1A_test.txt'
+psy:
+    path: 'data/DLGN/Psy_train.txt'

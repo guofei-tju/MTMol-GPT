@@ -1,0 +1,15 @@
+save_prior_path: './results/Prior_selfies.ckpt'
+use_selfies: True
+AgentNet:
+  d_model: 128
+  nhead: 8
+  num_decoder_layers: 12
+  dim_feedforward: 512
+  pos_dropout: 0.0
+  trans_dropout: 0.0
+  n_warmup_steps: 500
+  max_seq_length: 140
+  optimizer: 'adadelta'
+  optimizer__global__weight_decay: 0.001428470680331549
+  optimizer__global__lr: 0.0008453447466167819
+  pretrained_path: '../results/Prior.ckpt'

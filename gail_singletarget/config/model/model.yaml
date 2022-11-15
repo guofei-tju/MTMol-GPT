@@ -1,0 +1,29 @@
+transformers:
+    alpha: 1
+    d_model: 128
+    nhead: 8
+    num_decoder_layers: 12
+    dim_feedforward: 512
+    pos_dropout: 0.0
+    trans_dropout: 0.0
+    max_seq_length: 140
+    optimization:
+        optimizer_name: adam
+        lr: 3e-5
+        weight_decay: 3e-5
+
+rnnnet:
+    embed_dim: 128
+    blstm_dim: 256
+    liner_out_dim: 64
+    num_layers: 2
+    num_dir: 1
+    out_dim: 2
+    train: True
+    bidirectional: True
+    optimization:
+        optimizer: adam
+        lr: 1e-5
+        weight_decay: 1e-5
+    iteration: 10
+    use_fp: True

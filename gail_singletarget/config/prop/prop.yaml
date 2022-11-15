@@ -1,0 +1,10 @@
+prop_name:
+    - 'qed'
+    - 'sa'
+prop:
+    - qed:
+          - 0.6
+          - 1
+    - sa:
+          - 1
+          - 4

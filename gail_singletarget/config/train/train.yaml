@@ -1,0 +1,25 @@
+pretrain:
+  batch_size: 32
+  use_wandb: False
+  random_seed: 1
+  epochs: 500
+  save_path: 'results/chembl_pretrain/fp_constraint/'
+gail:
+  batch_size: 128 # it should be set in the training batch size
+  use_wandb: True
+  use_augmentation: False
+  use_selfies: True
+  model_path: 'results/chembl_pretrain/'
+  save_path: 'results/chembl_finetune/'
+  n_gail: 1
+  n_batch_policy: 32
+  ppo_buffer_size: 512
+  ppo_mini_batch_size: 32
+  ppo_epsilon: 0.2
+  ppo_iteration: 1
+  dis_nums: 2
+  warmup_step: 1
+  mix_demo_ratio: 0.2
+  epochs: 1000
+  random_seed: 1
+  epoch_step: 1
