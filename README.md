@@ -2,9 +2,9 @@
 
 This is the repository for the paper: #paper name
 ## Overview
-In this study, a new model, MolGAIL, is proposed for generating multiple target molecules. MolGAIL is a generation model based on transformer encoder. A contrast discriminator is introduced to calculate rewards based on the relationship between generated molecules and real molecules with different protein-target biological activities. The working flow of our model is as follows:
+In this study, a new model, MTMol-GPT, is proposed for generating multiple target molecules. MTMol-GPT is a generation model based on transformer. A contrast discriminator is introduced to calculate rewards based on the relationship between generated molecules and real molecules with different protein-target biological activities. The working flow of our model is as follows:
 ![img.png](MolGail.png)
-The details of MolGAIL is as follows:
+The details of MTMol-GPT is as follows:
 ![img.png](MolGail_detail.png)
 ## Requirements
 | Library/Project | Version     |
